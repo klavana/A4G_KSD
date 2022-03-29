@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">A4G_KSD</string>
+    <string name="userViewTextStr">Client View</string>
+    <string name="logoStr">"DonateConnect"</string>
+    <string name="openerMsgStr">"Hi! What would you like to do today?"</string>
+    <string name="browseReqStr">"Browse Organizational Requests"</string>
+    <string name="addItemStr">"Add an Item to Offers List"</string>
+    <string name="profileStr">"View Profile and Settings"</string>
+
 </resources>
