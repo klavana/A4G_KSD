@@ -56,10 +56,11 @@
         android:id="@+id/browseReqButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="ViewOrgReq"
         android:text="@string/browseReqStr"
         app:layout_constraintBottom_toTopOf="@+id/addItemButton"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeMsg"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMsg" />
 
     <Button
         android:id="@+id/profileButton"
@@ -68,8 +69,8 @@
         android:layout_marginBottom="176dp"
         android:text="@string/profileStr"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addItemButton"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addItemButton" />
 
     <Button
         android:id="@+id/addItemButton"
@@ -79,8 +80,8 @@
         android:onClick="moveToAddItemToList"
         android:text="@string/addItemStr"
         app:layout_constraintBottom_toTopOf="@+id/profileButton"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/browseReqButton"
-        tools:ignore="DuplicateSpeakableTextCheck"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

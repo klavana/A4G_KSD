@@ -15,7 +15,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void moveToAddItemToList(View v) {
         Intent intent = new Intent(this, AddItemToList.class);
-      //  intent.putExtra("answer", ansStr);
+        startActivity(intent);
+    }
+    public void ViewOrgReq(View v) {
+        Intent intent = new Intent(this, ViewOrgReq.class);
+        String OrgReq = Double.toString(42);
+        intent.putExtra("key1", OrgReq);
         startActivity(intent);
     }
 }

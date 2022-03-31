@@ -10,10 +10,14 @@
     <string name="addItemName">Item Name</string>
     <string name="itemQuantityStr">Item Quantity</string>
     <string name="checkBoxOneStr">Accept Partial Request Fulfillment</string>
-    <string name="buttonItemAddStr">Submit Item</string>
+    <string name="buttonItemAddStr">Submit Item As User</string>
+    <string name="buttonItemAddOrgStr">Submit Item As Org</string>
     <string name="itemNameCheck">Item Name</string>
     <string name="itemQuantityCheck">Item Quantity</string>
     <string name="addressCheck">Pick-up address</string>
     <string name="checkStr">Please check all information below before submitting</string>
+    <string name="viewOrgReqStr">View Organizational Requests</string>
+
+
 
 </resources>
