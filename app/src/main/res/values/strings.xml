@@ -5,7 +5,7 @@
     <string name="openerMsgStr">"Hi! What would you like to do today?"</string>
     <string name="browseReqStr">"Browse Organizational Requests"</string>
     <string name="addItemStr">"Add an Item to Offers List"</string>
-    <string name="profileStr">"View Profile and Settings"</string>
+    <string name="profileStr">"Browse User Offers"</string>
     <string name="addItemPageHeader">Add Items Below</string>
     <string name="addItemName">Item Name</string>
     <string name="itemQuantityStr">Item Quantity</string>
@@ -17,7 +17,8 @@
     <string name="addressCheck">Pick-up address</string>
     <string name="checkStr">Please check all information below before submitting</string>
     <string name="viewOrgReqStr">View Organizational Requests</string>
-
+    <string name="ViewUserOfferStr">View Pending User Offers</string>
+    <string name="CompOfferStr">View Delivered Offers</string>
 
 
 </resources>

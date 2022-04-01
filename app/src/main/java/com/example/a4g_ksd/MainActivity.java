@@ -23,4 +23,12 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("key1", OrgReq);
         startActivity(intent);
     }
+    public void UserOffers(View v) {
+        Intent intent = new Intent(this, UserOffers.class);
+        String UserOffer = Double.toString(42);
+        String CompOffer = Double.toString(45);
+        intent.putExtra("key2", UserOffer);
+        intent.putExtra("key3", CompOffer);
+        startActivity(intent);
+    }
 }
