@@ -20,5 +20,17 @@
     <string name="ViewUserOfferStr">View Pending User Offers</string>
     <string name="CompOfferStr">View Delivered Offers</string>
 
+    //Sign up page strs
+    <string name="welcomeStr">" Welcome to DonateConnect"</string>
+    <string name="signUpStr">"Create your profile!"</string>
+    <string name="genUserStr">"General User"</string>
+    <string name="orgStr">"Organizational User"</string>
+    <string name="accountTypeStr">"Account Type?"</string>
+    <string name="usernameLabel">"Enter a username: "</string>
+    <string name="usernameStr">"Username"</string>
+    <string name="emailLabel">"Enter your email: "</string>
+    <string name="emailStr">"Email "</string>
+    <string name="zipcodeLabel">"Enter your zipcode: "</string>
+
 
 </resources>

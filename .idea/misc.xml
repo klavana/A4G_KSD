@@ -4,10 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Sashank/School/MassAcademy/CS/AndroidStudio/A4G_KSD/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29028472900390623" />
-        <entry key="app/src/main/res/layout/activity_user_offers.xml" value="0.2237197875976562" />
-        <entry key="app/src/main/res/layout/additemtolist.xml" value="0.2056506115626931" />
-        <entry key="app/src/main/res/layout/vieworgreq.xml" value="0.21103057861328123" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28030090332031254" />
+        <entry key="app/src/main/res/layout/additemtolist.xml" value="0.231927490234375" />
+        <entry key="app/src/main/res/layout/signup.xml" value="0.12343444824218752" />
       </map>
     </option>
   </component>
@@ -20,7 +19,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2237197875976562" />
+        <option name="scale" value="0.21713205973307298" />
       </ProjectState>
     </option>
   </component>
