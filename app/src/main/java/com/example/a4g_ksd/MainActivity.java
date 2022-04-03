@@ -8,10 +8,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Object User;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // User testUser = new User("name", "location", "mail");
     }
     public void moveToAddItemToList(View v) {
         Intent intent = new Intent(this, AddItemToList.class);
@@ -25,9 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void UserOffers(View v) {
         Intent intent = new Intent(this, UserOffers.class);
-        String UserOffer = Double.toString(42);
         String CompOffer = Double.toString(45);
-        intent.putExtra("key2", UserOffer);
         intent.putExtra("key3", CompOffer);
         startActivity(intent);
     }

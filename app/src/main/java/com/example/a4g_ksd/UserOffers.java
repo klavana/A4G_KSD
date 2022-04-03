@@ -14,7 +14,8 @@ public class UserOffers extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_offers);
         Intent intent = getIntent();
-        String UserOffer = intent.getStringExtra("key2");
+        final Controller aController = (Controller) getApplicationContext();
+        String UserOffer = intent.getStringExtra(aController.getUser().getMyItemsList());
         String CompOffer = intent.getStringExtra("key3");
         TextView textViewUserReqTester = findViewById(R.id.textViewUserReqTester);
         textViewUserReqTester.setText(UserOffer);
