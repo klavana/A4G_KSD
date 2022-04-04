@@ -30,14 +30,33 @@ public class AddItemToList extends AppCompatActivity {
     }
 
     // Methods
-    public void addOffer(View v){
+    public String getName(){
+        name = editItemName.getText().toString();
+        return name;
+    }
+
+    public int getQuantity(){
         quantityStr = editItemQuantity.getText().toString();
         quantity = Integer.parseInt(quantityStr);
-        name = editItemQuantity.getText().toString();
-        Item i = new Item(name, quantity);
+        return quantity;
+    }
+
+    public void addOffer(View v){
+        Item i = new Item(getName(), getQuantity());
         final Controller controller = (Controller) getApplicationContext();
         controller.getUser().addItem(i);
         Toast.makeText(getApplicationContext(),"Add Offer",Toast.LENGTH_SHORT).show();
+        displayInfo();
 
+    }
+
+    private void displayInfo(){
+        final Controller controller = (Controller) getApplicationContext();
+        TextView itemNameText = findViewById(R.id.itemNameDisp);
+        TextView itemQuantityText = findViewById(R.id.itemQuantityDisp);
+        TextView addressText = findViewById(R.id.addressDisp);
+        itemNameText.setText("Item Name: " + getName());
+        itemQuantityText.setText("Quantity: " + getQuantity());
+        addressText.setText("Pick-up Address: " + controller.getUser().getAddress());
     }
 }
