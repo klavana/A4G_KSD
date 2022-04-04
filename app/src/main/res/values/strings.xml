@@ -1,4 +1,6 @@
 <resources>
+
+    //main page strs
     <string name="app_name">A4G_KSD</string>
     <string name="userViewTextStr">Client View</string>
     <string name="logoStr">"DonateConnect"</string>
@@ -19,6 +21,7 @@
     <string name="viewOrgReqStr">View Organizational Requests</string>
     <string name="ViewUserOfferStr">View Pending User Offers</string>
     <string name="CompOfferStr">View Delivered Offers</string>
+    <string name="toUserOffersStr">View your offers</string>
 
     //Sign up page strs
     <string name="welcomeStr">" Welcome to DonateConnect"</string>
