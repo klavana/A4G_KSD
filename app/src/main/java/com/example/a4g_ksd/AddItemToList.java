@@ -28,6 +28,10 @@ public class AddItemToList extends AppCompatActivity {
         Intent intent = getIntent();
         Toast.makeText(getApplicationContext(),"Add Item to List Working",Toast.LENGTH_SHORT).show();
     }
+    public void toUserOffers(View v) {
+        Intent intent = new Intent(this, UserOffers.class);
+        startActivity(intent);
+    }
 
     // Methods
     public String getName(){
