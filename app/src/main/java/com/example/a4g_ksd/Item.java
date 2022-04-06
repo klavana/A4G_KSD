@@ -94,9 +94,11 @@ public class Item {
 	 * 
 	 * @return organization status
 	 */
+
 	public String toString() {
 		return name + ", " + count;
 	}
+
 	public Boolean getOrgStatus() {
 		return acceptedByOrg;
 	}

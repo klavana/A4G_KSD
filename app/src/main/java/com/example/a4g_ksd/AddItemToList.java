@@ -10,6 +10,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class AddItemToList extends AppCompatActivity {
+    TextView editItemQuantity = findViewById(R.id.editItemQuantity);
+    String Quantity = editItemQuantity.getText().toString();
+    int quant = Integer.parseInt(Quantity);
+    TextView EditItemName = findViewById(R.id.EditItemName);
+    String Name = editItemQuantity.getText().toString();
+
 
     //Data
     EditText editItemQuantity, editItemName;
@@ -62,5 +68,9 @@ public class AddItemToList extends AppCompatActivity {
         itemNameText.setText("Item Name: " + getName());
         itemQuantityText.setText("Quantity: " + getQuantity());
         addressText.setText("Pick-up Address: " + controller.getUser().getAddress());
+
+    }
+    
+
     }
 }

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // User testUser = new User("name", "location", "mail");
     }
     public void moveToAddItemToList(View v) {
         Intent intent = new Intent(this, AddItemToList.class);
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, UserOffers.class);
         final Controller controller = (Controller) getApplicationContext();
         String CompOffer = controller.getUser().getMyItemsList();
+
         intent.putExtra("key3", CompOffer);
         startActivity(intent);
     }
