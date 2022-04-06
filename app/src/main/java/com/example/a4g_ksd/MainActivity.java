@@ -28,8 +28,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void UserOffers(View v) {
         Intent intent = new Intent(this, UserOffers.class);
-        String CompOffer = Double.toString(45);
+        final Controller controller = (Controller) getApplicationContext();
+        String CompOffer = controller.getUser().getMyItemsList();
+
         intent.putExtra("key3", CompOffer);
         startActivity(intent);
     }
+
+
 }

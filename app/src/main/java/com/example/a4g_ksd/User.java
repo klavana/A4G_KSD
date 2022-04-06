@@ -6,21 +6,21 @@ public class User {
 
 	// Data
 	private String userName;
-	private String zipcode;
+	private String address;
 	private String email;
 	private ArrayList<Item> items;
 
 	// Constructors
 	public User() {
 		userName = "username";
-		zipcode = "zipcode";
+		address = "address";
 		email = "email";
 		items = new ArrayList<Item>();
 	}
 
 	public User(String name, String location, String mail) {
 		userName = name;
-		zipcode = location;
+		address = location;
 		email = mail;
 		items = new ArrayList<Item>();
 	}
@@ -31,8 +31,9 @@ public class User {
 		return userName;
 	}
 
-	public String getZip() {
-		return zipcode;
+	public String getAddress() {
+		return address;
+
 	}
 
 	public String getEmail() {
@@ -56,8 +57,8 @@ public class User {
 		userName = name;
 	}
 
-	public void setZip(String zip) {
-		zipcode = zip;
+	public void setAddress(String zip) {
+		address = zip;
 	}
 
 	public void setEmail(String mail) {
