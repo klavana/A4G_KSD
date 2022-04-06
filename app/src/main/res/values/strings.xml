@@ -3,7 +3,7 @@
     //main page strs
     <string name="app_name">A4G_KSD</string>
     <string name="userViewTextStr">Client View</string>
-    <string name="logoStr">"DonateConnect"</string>
+    <string name="logoStr">"Donateables"</string>
     <string name="openerMsgStr">"Hi! What would you like to do today?"</string>
     <string name="browseReqStr">"Browse Organizational Requests"</string>
     <string name="addItemStr">"Add an Item to Offers List"</string>
@@ -34,6 +34,9 @@
     <string name="emailLabel">"Enter your email: "</string>
     <string name="emailStr">"Email "</string>
     <string name="zipcodeLabel">"Enter your zipcode: "</string>
+    <string name="UserRadio">Regular User</string>
+    <string name="textOff1">Regular User</string>
+    <string name="textOn1">Organization</string>
 
 
 </resources>
